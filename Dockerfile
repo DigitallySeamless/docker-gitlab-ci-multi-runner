@@ -12,3 +12,4 @@ RUN update-ca-certificates --fresh
 WORKDIR /home/gitlab_ci_multi_runner
 
 ENTRYPOINT ["gitlab-ci-multi-runner"]
+CMD ["run"]
